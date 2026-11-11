@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "System\\": "system/"
+        },
+        "files": ["config/app.php"]
+    },
+    "require": {
+        "mikecao/flight": "^1.3"
+    }
+}
